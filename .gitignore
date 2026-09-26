@@ -48,3 +48,24 @@ generate_allure_report.bat
 !.idea/runConfigurations/
 !.idea/runConfigurations/*.xml
 
+# Ignore APKs and binaries
+*.apk
+*.ipa
+
+# Ignore build output and target folders
+/target/
+/bin/
+
+# Ignore report outputs
+/allure-results/
+/allure-report/
+/execution-summary/
+/extent-reports/
+/*.log
+
+# IntelliJ IDE files
+/.idea/
+/*.iml
+
+# Sensitive local configurations
+/src/test/resources/testDataFiles/simpleJSON.json

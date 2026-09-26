@@ -1,0 +1,16 @@
+{
+  "credentials": {
+    "validPhone": "01065281951",
+    "password": "P@ssw0rd",
+    "insuranceNumber": "218357"
+  },
+  "payment": {
+    "scanBranchAmount": "150",
+    "scanHomeAmount": "249",
+    "labHomeAmount": "300"
+  },
+  "fileData": {
+    "localPath": "src/test/resources/testDataFiles/Attachment.png",
+    "devicePath": "/sdcard/Download/Attachment.png"
+  }
+}
